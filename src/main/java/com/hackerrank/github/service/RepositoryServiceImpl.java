@@ -73,7 +73,7 @@ public class RepositoryServiceImpl implements RepositoryService {
     public List<Event> getEventsByActorIdRepoId(Long repoID, Long actorID) {
     	List<Event> events = eventRepository.getEventsByActorIdRepoId(repoID, actorID);
 
-        if (events == null) {
+        if (events == null || events.isEmpty() ) {
             throw new NoSuchResourceFoundException("No Event with given id found.");
         }
 
