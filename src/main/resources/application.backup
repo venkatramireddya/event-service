@@ -19,7 +19,7 @@ management.endpoint.health.group.liveness.show-details=never
 
 # DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
 spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
-spring.datasource.url= jdbc:oracle:thin:@localhost:1521:orcl
+spring.datasource.url= jdbc:oracle:thin:@192.168.1.140:1521:orcl
 
 spring.datasource.username=ttech
 spring.datasource.password=ttech
@@ -37,7 +37,6 @@ logging.level.org.hibernate.SQL=DEBUG
 #------------------
 # http properties for rest Template Configuration
 #------------------
-
 http.conn.time.to.live = ${http_conn_time_to_live:5}
 http.evict.idle.conn =${http_evict_idle_conn:5}
 http.conn.time.out =${http_conn_time_out:3000}

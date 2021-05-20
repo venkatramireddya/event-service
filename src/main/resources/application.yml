@@ -1,0 +1,91 @@
+#------------------
+# Thread Propertis
+#------------------
+gen:
+    await:
+        term:
+            secs: ${gen_await_term_secs:5}
+    core:
+        pool:
+            size: ${gen_core_pool_size:200}
+    keep:
+        alive:
+            seconds: ${gen_keep_alive_seconds:60}
+    max:
+        pool:
+            size: ${gen_max_pool_size:300}
+    queue:
+        capacity: ${gen_queue_capacity:100}
+
+#------------------
+# http properties for rest Template Configuration
+#------------------
+http:
+    client:
+        max:
+            conn:
+                route: ${http_client_max_conn_route:50}
+                total: ${http_client_max_conn_total:100}
+    conn:
+        request:
+            timeout: ${http_conn_request_timeout:5000}
+        time:
+            out: ${http_conn_time_out:3000}
+            to:
+                live: ${http_conn_time_to_live:5}
+    evict:
+        idle:
+            conn: ${http_evict_idle_conn:5}
+    read:
+        time:
+            out: ${http_read_time_out:10000}
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: DEBUG
+                
+                
+
+#Force Enable health probs. Would be enabled on kubernetes platform
+management:
+    endpoints:      web:        exposure:          include: "*"
+    endpoint:
+        health:
+            group:
+                liveness:
+                    include: livenessState,mem
+                    show-details: never
+                readiness:
+                    include: readinessState
+            probes:
+                enabled: true
+    health:
+        livenessstate:
+            enabled: true
+        readinessstate:
+            enabled: true
+server:
+    address: 0.0.0.0
+    port: 9999
+#To enable graceful shutdown
+    shutdown: graceful
+ 
+# DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:
+    datasource:
+        driver-class-name: ${driver-class-name:oracle.jdbc.OracleDriver}
+        url: ${db_url:jdbc:oracle:thin:@localhost:1521:orcl}
+        username: ${db_username:ttech}
+        password: ${db_password:ttech}
+        
+---
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: ${hibernate_dialect:org.hibernate.dialect.OracleDialect}
+    lifecycle:
+        timeout-per-shutdown-phase: 10s
