@@ -37,7 +37,7 @@ public class GithubApiRestController {
     @RequestMapping(value = "/events", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public List<Event> getAllEvents() {
-        return repositoryService.getAllEvents();
+        //return repositoryService.getAllEvents();
     }
 
     @RequestMapping(value = "/events/repos/{repoID}", method = RequestMethod.GET)
