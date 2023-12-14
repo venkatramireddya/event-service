@@ -1,11 +1,11 @@
 repo_name: venkatramireddya/event-service
-report_id: '0604958ce4d6ada6a948f17bc92f46da'
+report_id: 3d487923a582afe8a57587426a35accf
 repo_type: Public
-timestamp: '2023-11-09T11:26:43+00:00'
+timestamp: '2023-12-14T09:24:10+00:00'
 requested_by: venkatramireddya
 provider: github
 branch: master
-detected_tools_count: 7
+detected_tools_count: 18
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -52,6 +52,17 @@ tools:
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: src/test/resources/testcases/description.txt
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2020-08-27 13:13:55.000000000 Z
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
   website_url: https://www.docker.com/
@@ -81,5 +92,119 @@ tools:
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
   detection_source: src/main/resources/application.yml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: src/test/resources/testcases/description.txt
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2020-08-27 13:13:55.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2020-08-27 13:13:55.000000000 Z
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: pom.xml
+  last_updated_by: Venkat Ambati
+  last_updated_on: 2021-05-20 23:56:01.000000000 Z
+- name: org.unitils:unitils-core
+  version: 3.4.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
+  detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
