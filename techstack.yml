@@ -1,7 +1,8 @@
 repo_name: venkatramireddya/event-service
-report_id: 3d487923a582afe8a57587426a35accf
+report_id: '0604958ce4d6ada6a948f17bc92f46da'
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:24:10+00:00'
+timestamp: '2024-01-04T14:53:09+00:00'
 requested_by: venkatramireddya
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/venkatramireddya/event-service
   detection_source: Repo Metadata
 - name: Spring Framework
   description: An application framework and inversion of control container for the
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2020-08-27 13:13:55.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2020-08-27 13:13:55.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -60,6 +65,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/src/test/resources/testcases/description.txt
   detection_source: src/test/resources/testcases/description.txt
   last_updated_by: Venkat Ambati
   last_updated_on: 2020-08-27 13:13:55.000000000 Z
@@ -72,6 +78,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/venkatramireddya/event-service
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -81,6 +88,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/venkatramireddya/event-service
   detection_source: Repo Metadata
 - name: Apache Camel
   description: A versatile open source integration framework
@@ -91,6 +99,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/src/main/resources/application.yml
   detection_source: src/main/resources/application.yml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -102,6 +111,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/src/test/resources/testcases/description.txt
   detection_source: src/test/resources/testcases/description.txt
   last_updated_by: Venkat Ambati
   last_updated_on: 2020-08-27 13:13:55.000000000 Z
@@ -113,6 +123,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2020-08-27 13:13:55.000000000 Z
@@ -124,6 +135,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -135,6 +147,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -146,6 +159,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -158,6 +172,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -169,6 +184,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -181,6 +197,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
@@ -193,6 +210,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/venkatramireddya/event-service/blob/master/pom.xml
   detection_source: pom.xml
   last_updated_by: Venkat Ambati
   last_updated_on: 2021-05-20 23:56:01.000000000 Z
